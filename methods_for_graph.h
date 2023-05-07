@@ -4,8 +4,7 @@
 #include <stack>
 #include <iomanip>
 #include "graph.h"
-#ifndef METHODS_FOR_GRAPH_H
-#define METHODS_FOR_GRAPH_H
+
 
 using namespace std;
 void Graph::DepthFirstSearch(int start_node) const {
@@ -96,4 +95,3 @@ void Graph::PrintIncidenceMatrix() const {
     }
     cout << endl;
 }
-#endif
