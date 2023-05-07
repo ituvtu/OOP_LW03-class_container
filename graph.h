@@ -3,8 +3,6 @@
 #include <vector>
 #include <stack>
 #include <iomanip>
-#ifndef GRAPH_H
-#define GRAPH_H
 
 using namespace std;
 class GraphElement {
@@ -51,4 +49,3 @@ private:
     vector<vector<int>> adjacency_matrix;
     vector<vector<int>> incidence_matrix;
 };
-#endif
